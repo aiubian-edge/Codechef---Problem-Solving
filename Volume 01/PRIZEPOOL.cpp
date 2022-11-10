@@ -17,7 +17,7 @@ using namespace std;
 int main() {
 	int t,x,y;
 	cin>>t;
-	if(t>=1 && t<=100){
+	if(t>=1 && t<=1000){
 	for(int i=0;i<t;i++){
         cin>>x>>y;
         if(x>=1 && x<=1000 && y>=1 && y<=1000 && y<=x){
