@@ -41,12 +41,13 @@ int main() {
         int d[n];
         int c=0;
         for(int j = 0 ; j<n ;j++){
-            cin>>d[i];
-            if(d[i]>=1000){
-               c=c+1; 
+            cin>>d[j];
+            if(d[j]>=1000){
+               c++; 
             }
         }
         cout<<c<<endl;
+        c=0;
     }
 	// your code goes here
 	return 0;
